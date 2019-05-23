@@ -1,0 +1,30 @@
+.sd-upload-file-list {
+
+
+    .sd-upload-file {
+        padding: 2px 4px;
+
+        .sd-upload-info {
+            margin-top: 10px;
+            padding: 2px 5px;
+            transition: background-color 0.5s;
+
+            .icon-close {
+                padding-top: 3px;
+                opacity: 0;
+                transition: opacity 0.5s;
+            }
+
+            &:hover {
+                background-color: #f0f5ff;
+
+                .icon-close {
+                    opacity: 1;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+
+    }
+}

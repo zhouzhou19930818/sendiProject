@@ -1,0 +1,123 @@
+.sd-tabs {
+
+    .part {
+        padding-top: 15px;
+        height: 1000px;
+
+        & > div {
+            width: calc(50% - 7.5px);
+
+
+            &.left {
+                float: left;
+            }
+
+            &.right {
+                float: right;
+            }
+
+            .ant-card-body {
+                padding: 0;
+            }
+        }
+    }
+
+    .program-history, .program-running {
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+
+    .block-wrapper {
+        width: 100%;
+        background: #ffffff;
+
+        .block {
+            width: 100%;
+            margin-top: 5px;
+
+            .title {
+                //padding-top: 10px;
+                color: #1B67E0;
+                line-height: 38px;
+                font-size: 14px;
+                font-weight: 500;
+
+                &::before {
+                    content: '';
+                    display: inline-block;
+                    width: 3px;
+                    height: 22px;
+                    vertical-align: middle;
+                    background: #1B67E0;
+                    border-radius: 2px;
+                    margin-right: 10px;
+                    margin-top: -4px;
+                    margin-left: 1px;
+                }
+            }
+
+            .body {
+                position: relative;
+
+                .chart-table {
+                    width: 100%;
+                    height: 300px;
+                }
+
+            }
+        }
+
+    }
+
+    .grey-card-title {
+
+        .ant-card-head {
+            background: #F4F4F4;
+
+            .ant-card-head-title {
+                color: #5B5B5B;
+                font-size: 16px;
+                font-weight: 600;
+
+                .anticon {
+                    margin-right: 6px;
+                }
+            }
+
+            .ant-card-extra {
+                color: #808080;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .radio-button {
+        margin-right: 10px;
+
+        .ant-radio-button-wrapper {
+            margin: 0 5px;
+            background: #EEEEEE;
+            color: #666666;
+            border-radius: 2px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            font-weight: 500;
+
+            &:first-child {
+                border-radius: 2px;
+            }
+
+            &:last-child {
+                border-radius: 2px;
+            }
+
+            &.ant-radio-button-wrapper-checked {
+                background: #1A83ED;
+                color: #ffffff;
+                border-radius: 2px;
+            }
+        }
+    }
+}
